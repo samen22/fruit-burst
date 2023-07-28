@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <!-- Favicon link -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- Tailwind and Daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link here -->
+    <script src="https://kit.fontawesome.com/b607935317.js" crossorigin="anonymous"></script>
+    <!-- Tailwind Custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'gradient-start': '#FF8938',
+                'gradient-end'  :  '#F00',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="font-lato h-screen">
+    <header class="container mx-auto">
+        <!-- nav section desktop here -->
+        <nav class="mx-auto">
+            <div class="navbar bg-[#F85559] rounded-full mt-10 bg-base-100 flex flex-col items-center md:flex-row justify-between py-4 px-6 lg:px-12">
+              <div class="text-sm text-white font-medium gap-7 md:flex">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Shop</a>
+                <a href="">All Fruits</a>
+              </div>
+              <div class="navbar-center flex items-center md:justify-start md:mt-0">
+                <img src="./images/logo.png" alt="">
+                <a class="text-4xl font-bold text-white ml-3">Fruit Burst</a>
+              </div>
+              <div class="flex items-center relative mt-4 md:mt-0">
+                <div class="form-control">
+                  <input type="text" placeholder="Search here" class="input input-bordered bg-white rounded-full px-3 py-2 placeholder-gray-500 ring-2 ring-gray-500 focus:ring-gray-600 focus:ring-2 md:w-auto"/>
+                </div>
+                <div class="absolute left-40 md:left-40 lg:left-40">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+    <main>
+
+    </main>
+
+</body>
+
+</html>
